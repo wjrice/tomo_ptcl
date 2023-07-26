@@ -6,4 +6,4 @@ The files in "split" can then be input into any desired particle picking program
 
 tomo_ptcl.pl -- run this on the star file produced by particle picking. Ideally, the picker will have placed all of the particles from all of the files. It asks for thr particle size, and uses this to determine if picks on adjacent sections are for the same particle. It outputs a single 3D coordinate star file for the particle picks. This can be used directly for subtomogram generation in Warp.
 
-satr2box.pl -- converts the 3D coordinate star file to an EMAN2 style box file. This can be usued within EMAN2 to visualize picks on a tomogram.
+star2box.pl -- converts the 3D coordinate star file to an EMAN2 style box file. This can be usued within EMAN2 to visualize picks on a tomogram.
